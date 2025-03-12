@@ -1,7 +1,8 @@
 /* General styles */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #121212; /* Dark grayish-black */
+    color: #ffffff; /* White text for contrast */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -84,6 +85,7 @@ li {
     border-radius: 5px;
     font-size: 18px;
     transition: background 0.3s;
+    color: #121212;
 }
 
 li:hover {
